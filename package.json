@@ -1,0 +1,14 @@
+{
+  "name": "zorocom",
+  "version": "1.0.0",
+  "description": "Full stack MERN application for company reviews",
+  "main": "server.js",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
