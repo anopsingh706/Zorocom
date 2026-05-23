@@ -14,7 +14,11 @@ connectDB();
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: ['https://zorocom.vercel.app', 'http://localhost:5173'],
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
+  credentials: true
+}));
 
 app.use('/api/companies', companyRoutes);
 app.use('/api/reviews', reviewRoutes);
