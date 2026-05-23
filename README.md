@@ -1,4 +1,4 @@
-# 🔥 Zorocom — Company Review & Rating Platform
+# 💤 Zorocom — Company Review & Rating Platform ☑
 
 A full-stack MERN application where users can discover companies, read reviews, and share their workplace experiences.
 
